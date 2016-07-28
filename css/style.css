@@ -1,3 +1,39 @@
-body {
-  padding: 20px;
+.page-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  max-width: 50%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: solid 1px #EEEEEE;
+  border-radius: 2px;
+}
+
+img {
+  max-width: 250px;
+  max-height: 250px;
+}
+
+#movie {
+  display: flex;
+  flex-direction: row;
+}
+
+a {
+  text-decoration: none;
+}
+
+#search {
+  color: white;
+}
+
+p {
+  color: #777777;
 }
